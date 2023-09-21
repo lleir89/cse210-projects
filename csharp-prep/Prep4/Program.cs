@@ -13,7 +13,10 @@ class Program
         while (newNumber != 0)
         {
             newNumber = int.Parse(Console.ReadLine());
-            numbers.Add(newNumber);
+            if (newNumber != 0)
+            {
+                numbers.Add(newNumber);
+            }
             sum = sum + newNumber;
             foreach (int number in numbers)
             {
