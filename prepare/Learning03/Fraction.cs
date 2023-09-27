@@ -11,9 +11,9 @@ public class Fraction
         _bottom = 1;
     }
 
-    public Fraction(int Number)
+    public Fraction(int number)
     {
-        _top = Number;
+        _top = number;
         _bottom = 1;
     }
 
